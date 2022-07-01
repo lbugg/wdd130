@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Julee&display=swap');
+
+#content {
+    background-color: black;
+    color: white;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    font-family: "Inter", Helvetica, sans-serif;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+h1, h2 {
+    font-family: "Julee", Georgia, serif;
+}
+
+img {
+    padding: 10px;
+    border-radius: 5px;
+    border: solid white 2px;
+}
+
+#page-title {
+    text-align: center;
+    grid-column: 1/7;
+    margin: auto;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    font-size: 3em;
+}
+
+#text1 {
+    grid-column: 1/6;
+    padding: 5%;
+    padding-left: 0;
+    padding-top: 20px;
+}
+
+#text2 {
+    grid-column: 2/7;
+    padding: 5%;
+    padding-right: 0;
+    padding-top: 75px;
+}
+
+.image-label {
+    text-align: center;
+    margin-top: -2px;
+    font-size: 1em;
+}
+
+header {
+    max-width: 100%;
+    background-color: #5A056C;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    margin: 0 auto;
+    font-family: "Inter", Helvetica, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+nav a {
+    width: 33%;
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+    padding: 50px;
+}
+
+nav a:hover {
+    background-color: #120E75;
+}
+
+.logo {
+    width: 150px;
+    border: 0;
+    padding: 0;
+    border-radius: 0;
+}
+
+footer {
+    background-color: #5A056C;
+    padding: 20px;
+    font-family: "Inter", Helvetica, sans-serif;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    margin-top: 50px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    text-align: right;
+    padding-right: 50px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
