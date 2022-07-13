@@ -190,3 +190,26 @@ td {
 tr:nth-child(even) {
     background-color: #5A056C;
   }
+
+/* start Playstyle css */
+
+#playstyle-main {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.left-text {
+    grid-column: 1/4;
+    padding-bottom: -20px;
+}
+
+#magic-swords {
+    grid-column: 4/5;
+    grid-row: 2/5;
+    text-align: center;
+    margin-left: 50px
+}
+
+#fire-sword, #lightning-sword {
+    width: 50%;
+    margin: 25px;
+}
