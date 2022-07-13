@@ -211,4 +211,5 @@ tr:nth-child(even) {
 #fire-sword, #lightning-sword {
     width: 50%;
     margin: 25px;
+    margin-bottom: 0px;
 }
