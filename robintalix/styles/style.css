@@ -199,7 +199,6 @@ tr:nth-child(even) {
 
 .left-text {
     grid-column: 1/4;
-    padding-bottom: -20px;
 }
 
 #magic-swords {
